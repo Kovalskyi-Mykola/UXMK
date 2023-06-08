@@ -1,15 +1,18 @@
 "use client"
 import { FC, useEffect, useState } from 'react';
 import Image from 'next/image';
+import * as React from "react";
+import { motion, useViewportScroll, useTransform } from "framer-motion";
+
 
 import arrow from '@/../public/chechMark.svg';
 
 interface HowWeCanHelpProps {}
 
-let props = 'w-96 about-block h-60 text-lg text-slate-200 px-14 relative items-center flex justify-center main_color_asbg';
+let props = ' w-full scale-75 sm:scale-100 sm:mx-10 md:mx-0 md:w-96 about-block h-60 text-lg text-slate-200 px-14 relative items-center flex justify-center main_color_asbg';
 
 const HowWeCanHelp: FC<HowWeCanHelpProps> = ({}) => {
-  const [scrollPosition, setScrollPosition] = useState(0);
+  const [scrollPosition, setScrollPosition] = useState<number >(0);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -33,7 +36,7 @@ const HowWeCanHelp: FC<HowWeCanHelpProps> = ({}) => {
   }, []);
 
   return (
-    <div className={`relative mb-0 md:mb-52 block md:hidden scale-75 md:scale-100 sm:scale-100 xl:block lg:mb-80`}>
+    <div className={`relative mb-52 md:mb-52 block md:hidden xl:block lg:mb-80 ` }>
       <div className="text-white">a</div>
       <div style={{ left: 3300 - scrollPosition }} className="flex flex-wrap md:flex-nowrap justify-center xl:absolute overflow-visible gap-10">
         <div className={`${props}`}>

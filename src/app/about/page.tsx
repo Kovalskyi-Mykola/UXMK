@@ -22,13 +22,13 @@ const page: FC<pageProps> = ({ }) => {
         I will explain
         how it works
       </div>
-      <Link target='_blank' href={"https://t.me/Penguin_kov"}>
         <div>
+      <Link target='_blank' href={"https://t.me/Penguin_kov"}>
           <span className=' absolute  px-10 py-4 bg-black text-white text-center '  >
             Contact me
           </span>
-        </div>
       </Link>
+        </div>
     </div>
 
     <Image className='self-center md:-mt-52 border-b-8 border-black ' src={Me} alt='developer image ' ></Image>

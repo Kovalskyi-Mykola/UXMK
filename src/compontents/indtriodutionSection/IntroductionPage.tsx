@@ -1,10 +1,6 @@
 'use client'
 import { FC } from 'react'
-
 import Block from './Block'
-
-import arrow from '@/../public/Arrow.svg'
-import Image from 'next/image'
 import FadeIn from '@/animations/fadeInAnimation'
 import Link from 'next/link'
 
