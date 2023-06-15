@@ -23,7 +23,7 @@ const styles = " flex flex-col gap-16 xl:gap-28"
 const PeojectsPage: FC<PeojectsPageProps> = ({ }) => {
   return <section id='projects-image' className=' mb-10 '>
 
-    <div className='px-5 lg:px-0'>
+    <div className=' lg:px-0'>
       <h3 className=' tracking-widest text-base mb-5 sm:mb-10'>PROJECTS</h3>
       <p className='text-4xl font-bold   mb-5 sm:mb-10 '>What we do?</p>
 
@@ -35,7 +35,7 @@ const PeojectsPage: FC<PeojectsPageProps> = ({ }) => {
 
             <div>
 
-              <p className='max-w-xl block w-full text-base sm:text-xl '>We design amazing software int                          fundamentally improve the businesses of our clients.</p>
+              <p className='max-w-xl block w-full text-base sm:text-xl '>We design amazing software int         fundamentally improve the businesses of our clients.</p>
               {/* <Link href='projects'>
 
                 <span className='underline-text inline-block pt-2 text-xl'> Our projects <Image className='inline-block ml-8 mt-4' src={arrow} alt='Arrow' /></span>
@@ -44,11 +44,6 @@ const PeojectsPage: FC<PeojectsPageProps> = ({ }) => {
             </div>
 
           </FadeInFromSide>
-
-
-
-
-
 
           <FadeInFromSide direction='bottom'>
 

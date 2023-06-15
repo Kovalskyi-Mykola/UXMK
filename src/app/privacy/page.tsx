@@ -9,8 +9,8 @@ interface PrivacyProps {
 }
 let mbottom = "mb-7 "
 const Privacy: FC<PrivacyProps> = ({ }) => {
-  return <section className='py-32 px-5'>
-    <Link href={`/`}>
+  return <section className='py-32 '>
+    <Link prefetch={false} href={`/contact`}>
       <span className='text-lg relative pl-10 underline mb-20 block  tracking-wide'>
 
         <Image className='rotate-180 scale-75 -left-5 -top-2.5 absolute tracking-tight' src={arrow} alt={``}></Image> Back to contacts

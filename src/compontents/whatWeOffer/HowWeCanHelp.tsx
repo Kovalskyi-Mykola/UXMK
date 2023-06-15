@@ -9,7 +9,7 @@ import arrow from '@/../public/chechMark.svg';
 
 interface HowWeCanHelpProps {}
 
-let props = ' w-full scale-75 sm:scale-100 sm:mx-10 md:mx-0 md:w-96 about-block h-60 text-lg text-slate-200 px-14 relative items-center flex justify-center main_color_asbg';
+let props = ' w-full scale-75  -mb-10 sm:mb-0  sm:scale-100 sm:mx-10 md:mx-0 mb:w-96 about-block h-60 text-lg text-slate-200 px-14 relative items-center flex justify-center main_color_asbg';
 
 const HowWeCanHelp: FC<HowWeCanHelpProps> = ({}) => {
   const [scrollPosition, setScrollPosition] = useState<number >(0);
@@ -36,7 +36,7 @@ const HowWeCanHelp: FC<HowWeCanHelpProps> = ({}) => {
   }, []);
 
   return (
-    <div className={`relative mb-52 md:mb-52 block md:hidden xl:block lg:mb-80 ` }>
+    <div className={`relative -mt-20 mb-52 md:mb-52 block md:hidden  xl:block lg:mb-80 ` }>
       <div className="text-white">a</div>
       <div style={{ left: 3300 - scrollPosition }} className="flex flex-wrap md:flex-nowrap justify-center xl:absolute overflow-visible gap-10">
         <div className={`${props}`}>

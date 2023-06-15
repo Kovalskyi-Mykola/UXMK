@@ -31,13 +31,13 @@ const WhoAreWe: FC<WhoAreWeProps> = () => {
     };
   }, []);
 
-  const props = '   mx-5 w-full lg:w-96 about-block h-44 text-slate-200 px-14 relative items-center flex justify-center main_color_asbg';
+  const props = ' lg:w-96  h-44  text-slate-200 px-14   relative items-center flex justify-center main_color_asbg';
 
   return (
     <div className="relative mb-10 md:mb-52 block md:hidden  xl:block lg:mb-80">
       <div className="text-white">a</div>
       <div style={{ left: 300 - scrollPosition }} className="flex flex-wrap md:flex-nowrap justify-center xl:absolute overflow-visible gap-10">
-        <div className={`${props}`}>
+        <div className={`${props}   `}>
           <Image style={{ position: 'absolute', left: 15, top: 15 }} src={arrow} alt="checkMark" />
           We solve difficult problems and provide effective client-oriented solutions.
         </div>

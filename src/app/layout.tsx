@@ -4,6 +4,8 @@ import './globals.css'
 import { Montserrat, Roboto } from 'next/font/google'
 import Footer from '@/compontents/Footer'
 import Link from 'next/link'
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
+import { Terminal } from 'lucide-react'
 
 
 const montserrat = Montserrat({
@@ -28,11 +30,12 @@ export default function RootLayout({
         <div className='m-auto container text-black ' >
 
           {/* <Link href={'privacy'}>bro</Link> */}
+
           <Header />
-            
           {children}
 
-          <Footer />
+
+          {/* <Footer /> */}
         </div>
       </body>
     </html>
