@@ -36,7 +36,7 @@ const IntroductionPage: FC<IntroductionPageProps> = ({ }) => {
 
                     <h2 className='  mt-16 sm:mb-4 text-sm tracking-widest '>SOLUTION COMPANY</h2>
                     <h1 className=' text-2xl md:w-max shrink-0 md:text-5xl sm:text-6xl font-bold mt-5 mb-5 sm:mb-10'>We sell solutions. <span className='animate-ping duration-400'>|</span></h1>
-                    <p className='mb-5 tracking-tighter sm:mb-14 text-base sm:text-xl  leading-6 sm:leading-10 '>Creating a solution based on     the real needs of the <br className='hidden sm:block' /> client.  Do you have any problem with what has to be solved?</p>
+                    <p className='mb-5 tracking-tighter sm:mb-14 text-base sm:text-xl  leading-6 sm:leading-10 '>Creating a solution based on the real needs of the <br className='hidden sm:block' /> client.  Do you have any problem with what has to be solved?</p>
                     <Link prefetch={false} href={"/contact"}>
                         <button className='font-bold max-w-lg 2xl:max-w-full block w-full py-4 text-center border text-xl  main_color_asbg text-white    border-black'>Hire us</button>
                     </Link>
@@ -110,7 +110,7 @@ const IntroductionPage: FC<IntroductionPageProps> = ({ }) => {
                                 <AlertDialogTitle>FREE
                                     CONSULTATION</AlertDialogTitle>
                                 <AlertDialogDescription>
-                                    Don't fear talk to us! we put customer on the first place!
+                                    Dont fear talk to us! we put customer on the first place!
                                 </AlertDialogDescription>
                             </AlertDialogHeader>
                             <AlertDialogFooter>
@@ -125,7 +125,7 @@ const IntroductionPage: FC<IntroductionPageProps> = ({ }) => {
                             <AlertDialogHeader>
                                 <AlertDialogTitle>MONEY BACK</AlertDialogTitle>
                                 <AlertDialogDescription>
-                                    If you won't be satisfied, we will refund you money back!
+                                    If you wont be satisfied, we will refund you money back!
                                 </AlertDialogDescription>
                             </AlertDialogHeader>
                             <AlertDialogFooter>
